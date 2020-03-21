@@ -21,8 +21,12 @@
     <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
 
+    <!-- Ensure app store applications has internet access to manage updates. -->
+    <allow-in-power-save-except-idle package="com.android.vending" />
+
     <!-- Bare minimum microG components. -->
     <app-link package="com.google.android.gms" />
+    <app-link package="com.android.vending" />
 
     <!-- Optional microG components. -->
     <app-link package="org.microg.gms.droidguard" />
