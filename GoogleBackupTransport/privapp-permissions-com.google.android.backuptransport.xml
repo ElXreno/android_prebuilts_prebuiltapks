@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.google.android.backuptransport">
+        <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+        <permission name="android.permission.BACKUP"/>
+    </privapp-permissions>
+</permissions>

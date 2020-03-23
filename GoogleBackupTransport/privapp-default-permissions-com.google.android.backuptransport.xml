@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <exception package="com.google.android.backuptransport">
+        <permission name="android.permission.READ_CONTACTS" fixed="false"></permission>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"></permission>
+        <permission name="android.permission.GET_ACCOUNTS" fixed="false"></permission>
+    </exception>
+</exceptions>
