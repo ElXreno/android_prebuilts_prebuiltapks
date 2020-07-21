@@ -19,11 +19,11 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := GmsCore
-LOCAL_SRC_FILES := com.google.android.gms-19420020.apk
+LOCAL_SRC_FILES := com.google.android.gms-0522ed41-unsigned.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_CERTIFICATE := platform
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml microg-sysconfig.xml
 include $(BUILD_PREBUILT)
